@@ -167,6 +167,7 @@ const sortName = () => {
 
 watch(searchQuery, onChangeSearch)
 
+
 onMounted(() => {
   searchItems.value = items.value
 })
